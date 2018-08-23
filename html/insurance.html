@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>“拿去花”分期旅行，开启出行新体验</title>
+	<link rel="shortcut icon" href="../images/bitbug_favicon(1).ico">
+	<link rel="stylesheet" type="text/css"href="../css/insurance.css"/>
+	<script src="../js/jquery.min.js"type="text/javascript"charset="utf-8"></script>
+	<script src="../js/insurance.js"type="text/javascript"charset="utf-8"></script>
+	<link rel="stylesheet" href="../css/font/iconfont.css">
+</head>
+<body>
+	<header>
+		<img class="logo"src="../images/logo.png"/>
+		<ul class="top">
+			<li class="top_li_margin">请 <a href="login.html"class="login">登录</a> 或 <a href="register.html"class="register"> 免费注册</a></li>
+			<b></b>
+			<li>
+				<i class="msg"></i>
+				<a class="info"href="#">消息</a>
+				<i class="arr"></i>					
+			</li>
+			<b></b>
+			<li class="order">
+				<p><a href="#">查看订单</a></p>
+				<i class="arr"></i>
+				<ul>					
+					<li><a href="#">机票订单</a></li>
+					<li><a href="#">酒店订单</a></li>
+					<li><a href="#">公寓订单</a></li>
+					<li><a href="#">团购订单</a></li>
+					<li><a href="#">度假订单</a></li>
+					<li><a href="#">火车票订单</a></li>
+					<li><a href="#">汽车订单</a></li>
+					<li><a href="#">车车订单</a></li>
+					<li><a href="#">Q商城订单</a></li>
+					<li><a href="#">当地人订单</a></li>
+					<li><a href="#">金融订单</a></li>
+					<li><a href="#">礼品卡订单</a></li>			
+				</ul>
+			</li>
+			<b></b>
+			<li class="top_li_margin"><a href="#">积分商城</a></li>
+			<b></b>
+			<li><a href="#">联系客服</a></li>
+		</ul>
+
+		<div class="nav">
+			<ul>
+				<li index="-1"class="current"><a href="../index.html">首页</a></li>
+				<li index="-1"><a href="#">机票</a></li>
+				<li index="-1"><a href="#">酒店</a></li>
+				<li index="0"><a href="groundBuying.html">团购</a></li>
+				<li index="1"><a href="vacation.html">度假</a></li>
+				<li index="2"><a href="#">门票</a></li>
+				<li index="-1"><a href="#">火车票</a></li>
+				<li index="3"><a href="#">攻略</a></li>
+				<li index="4"><a href="#">当地人</a></li>
+				<li index="5"><a href="#">车车</a></li>
+				<li index="-1"><a href="#">汽车票</a></li>					
+				<li index="-1"><a href="#">境外</a></li>
+				<li index="-1"><a href="insurance.html">保险</a></li>
+				<li index="6"><a href="#">金融</a></li>
+				<div style="clear:both">
+					
+				</div>
+			</ul>
+			<div class="nav_img">
+				<img src="../images/dujia_519.png"/>
+				<img src="../images/mp-daytrip.png"/>
+				<img src="../images/haiwai.gif"/>
+				<img src="../images/quanjia.gif"class="nav_img_4"/>
+				<img src="../images/local.gif"class="nav_img_5"/>
+				<img src="../images/car.gif"class="nav_img_6"/>
+				<img src="../images/bus.png"/>
+				<img src="../images/insure.gif"/>
+				<img src="../images/jr_v1.gif"/>
+
+			</div>
+			
+			<div class="subnav"style="left: 65px;">
+				<ul>
+					<li><a href="#">度假团购</a></li>
+					<li><a href="#">酒店团购</a></li>
+					<li><a href="#">周边休闲</a></li> 
+					<li><a href="#">长线游</a></li>
+				</ul>
+			</div>
+			<div class="subnav"style="left: 120px; width:87%;">
+				<ul>
+					<li><a href="#">度假首页</a></li>
+					<li><a href="#">海外玩乐</a></li>
+					<li><a href="#">自由行</a></li> 
+					<li><a href="#">出境游</a></li>
+					<li><a href="#">特卖</a></li>
+					<li><a href="#">周边游</a></li>
+					<li><a href="#">邮轮</a></li> 
+					<li><a href="#">签证</a></li>
+					<li class="subnav_fontcolor_red subnav_icon_H"><a href="#">海外购物</a></li>
+					<li><a href="#">包团·定制</a></li>
+					<li class="subnav_icon_N"><a href="#">旅行保险</a></li> 
+				</ul>
+			</div>
+			<div class="subnav"style="left: 175px;">
+				<ul>
+					<li><a href="#">境内门票</a></li>
+					<li class="subnav_fontcolor_red subnav_icon_H"><a href="#">品质一日游</a></li>
+					<li><a href="#">玩转海外</a></li> 
+					<li><a href="#">港澳台门票</a></li>
+					<li><a href="#">地点找景点</a></li>
+					<li class="subnav_icon_N"><a href="#">厦门老院子</a></li> 
+					<li class="subnav_icon_N"><a href="#">壮美内蒙古</a></li>
+				</ul>
+			</div>
+			<div class="subnav"style="left: 282px;">
+				<ul>
+					<li><a href="#">攻略首页</a></li>
+					<li><a href="#">攻略课</a></li>
+					<li><a href="#">目的地</a></li> 
+					<li><a href="#">创建行程</a></li>
+					<li class="subnav_fontcolor_red subnav_icon_H"><a href="#">发表游记</a></li> 
+					<li><a href="#">骆驼书</a></li>
+				</ul>
+			</div>
+			<div class="subnav"style="left: 333px;">
+				<ul>
+					<li><a href="#">当地人首页</a></li>
+					<li class="subnav_fontcolor_red subnav_icon_H"><a href="#">出境WIFI</a></li>
+					<li><a href="#">旅游包车</a></li> 
+					<li><a href="#">一日游</a></li>
+					<li><a href="#">导游讲解</a></li> 
+					<li><a href="#">交通卡</a></li>
+				</ul>
+			</div>
+			<div class="subnav"style="left: 405px;">
+				<ul>
+					<li><a href="#">车车首页</a></li>
+					<li class="subnav_fontcolor_red subnav_icon_N"><a href="#">国内租车</a></li>
+					<li><a href="#">国际接送车</a></li> 
+				</ul>
+			</div>
+			<div class="subnav"style="left: 692px; width:20%">
+				<ul>
+					<li><a href="#">拿去花</a></li>
+					<li><a href="#">保险商城</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		
+		<div class="lowprice">
+			<img  src="../images/dijia2.gif"/>
+		</div>
+	</header>
+	<div class="fund-native">
+		<div class="fund-native-con">
+			<ul>
+				<li><a href="#">拿去花</a></li>
+				<li style="background:#0086a0;"><a href="#">保险商城</a></li>
+			</ul>
+		</div>
+<!-- 			<div class="fund-pic"style="display:none;">
+				<a href="#"></a>
+			</div> -->
+			
+		</div>
+		<div class="fund-nav">
+			<div class="fund-nav-con">
+				<ul>        
+					<li><a href="#">全部</a></li>
+					<li><a href="#">出行</a></li>
+					<li><a href="#">健康</a></li>
+					<li><a href="#">爆款</a></li>
+					<li><a href="#">意外</a></li>
+					<li><a href="#">财产</a></li>
+					<li><a href="#">人寿</a></li>
+					<li><a href="#">重疾</a></li>
+					<li><a href="#">医保</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class='sowing'>
+			<ul  class="sowing-con">
+				<li style='display: block;'><img src="../images/banner.jpg"alt=""></li>
+				<li><img src="../images/banner1.jpg"alt=""></li>
+				<li><img src="../images/banner2.jpg"alt=""></li>
+				<li><img src="../images/banner3.jpg"alt=""></li>
+				<li><img src="../images/banner4.jpg"alt=""></li>
+			</ul>
+			<ol class="sowing-list">
+				<li style="border: 2px solid #fbb200;"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				
+			</ol>
+			<div class="sowing-code">
+				<img src="../images/xiaobei3.png"alt="">
+				<img src="../images/xiaobei .png"alt="">
+				<a href="#"class="sowing-a">选保险,不焦虑 !</a>
+				<p class="sowing-p">去哪儿保险服务热线：10101230</p>
+			</div>
+		</div>
+		<div class="con-floor-title">
+			<span></span>
+			<span>爆款推荐 • HOT RECOMMENDATION</span>
+			<span></span>
+		</div>
+		<div class="con-container">
+			<ul>
+				<li class="container-floor">
+					<a href="#">
+						<span class="small-sign">国内旅游险</span>
+						<img src="../images/civil-trip.jpg"alt="">
+							<!-- <div class="pic-film">
+								<span class="ba-safty">每日2元 | 低额的保费 | 品质的保卫</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>55</b>起</span>
+							<div class="film-code"style=''>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+							
+						</div> -->
+						<div class="ts-film">
+							<div class="ts-film-inner">
+							</div>
+							<div class="ts-film-bottom">
+								<span class="ts-film-safty">每日2元 | 低额的保费 | 品质的保卫</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>55</b>起</span>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+						</div>
+
+					</a>
+				</li>
+				<li class="container-floor">
+					<a href="#">
+						<span class="small-sign">全球旅游险</span>
+						<img src="../images/schengen.jpg"alt="">
+							<!-- <div class="pic-film">
+								<span class="ba-safty">医疗运送10万 | 意外保障</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>50</b>起</span>
+							<div class="film-code"style=''>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+
+						</div> -->
+						<div class="ts-film">
+							<div class="ts-film-inner">
+							</div>
+							<div class="ts-film-bottom">
+								<span class="ts-film-safty">每日2元 | 低额的保费 | 品质的保卫</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>55</b>起</span>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="container-floor">
+					<a href="#">
+						<span class="small-sign">航行旅游险</span>
+						<img src="../images/air-accident.jpg"alt="">
+							<!-- <div class="pic-film">
+								<span class="ba-safty">航空意外保障 | 高性价比</span>
+								<span class="bao-safty"style="display:none;">航意险</span>
+								<span class="write-before">¥<b>20</b>起</span>
+							<div class="film-code"style=''>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+
+						</div> -->
+						<div class="ts-film">
+							<div class="ts-film-inner">
+							</div>
+							<div class="ts-film-bottom">
+								<span class="ts-film-safty">每日2元 | 低额的保费 | 品质的保卫</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>55</b>起</span>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+						</div>
+					</a>
+				</li>
+				<li class="container-floor"style="margin-right:0px;">
+					<a href="#">
+						<span class="small-sign">泰国旅游险</span>
+						<img src="../images/thailand.jpg"alt="">
+							<!-- <div class="pic-film">
+								<span class="ba-safty">出行意外 | 高额赔付 | 医疗保障</span>
+								<span class="bao-safty"style="display:none;">泰国旅行险</span>
+								<span class="write-before">¥<b>10</b>起</span>
+							<div class="film-code"style=''>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+						</div> -->
+						<div class="ts-film">
+							<div class="ts-film-inner">
+							</div>
+							<div class="ts-film-bottom">
+								<span class="ts-film-safty">每日2元 | 低额的保费 | 品质的保卫</span>
+								<span class="bao-safty"style="display:none;">国内旅行险</span>
+								<span class="write-before">¥<b>55</b>起</span>
+								<img src="../images/civil-trip-https2.png"alt="">
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="travel-insurance">
+			<div class="travel-con">
+				<div class="travel-col-left">
+					<span class="travel-sign"></span>
+					<img src="../images/trip.jpg" alt="">
+					<div class="travel-sign1">
+						<div class="travel-ad">
+							<span>出行险</span>
+							<span>Traveling Insurance</span>
+							<p>为你提供全方位的保障做有趣的保险平台</p>
+						</div>
+					</div>
+				</div>
+				<div class="travel-col-right">
+					<ul>
+						<li style=''>
+							<ul class="wrap">
+								<li>
+									<div class="wrap-left">
+										<span>交通意外险</span>
+										<span>航空意外</span>
+										<span>海陆交通</span>
+										<span>全面保障</span>
+										<span class="wrap-left-sign">¥<b>5</b></span>
+									</div>
+
+								</li>
+								<li class="wrap-h">
+									<div class="wrap-right" >
+										<img src="../images/traffic-accident.jpg" alt="">
+										
+									</div>
+									<div class="wrap-code">
+										<span>扫码立即购买</span>
+										<img src="../images/traffic-accident-https1.png" alt="">
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li class="travel-li2">
+							<ul class="wrap">
+								<li>
+									<div class="wrap-left">
+										<span>旅行意外险</span>
+										<span>高性价比</span>
+										<span>出行必备</span>
+										<span class="wrap-left-sign">¥<b>5</b></span>
+									</div>
+
+								</li>
+								<li class="wrap-h">
+									<div class="wrap-right" >
+										<img src="../images/scenic-accident.jpg" alt="">
+										
+									</div>
+									<div class="wrap-code">
+										<span>扫码立即购买</span>
+										<img src="../images/traffic-accident-https1.png" alt="">
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="wrap">
+								<li>
+									<div class="wrap-left">
+										<span>航班延误险</span>
+										<span>航延最高400元</span>
+										<span>1小时起赔</span>
+										
+										<span class="wrap-left-sign">¥<b>1</b></span>
+									</div>
+
+								</li>
+								<li class="wrap-h">
+									<div class="wrap-right" >
+										<img src="../images/trip-annual.jpg" alt="">
+										
+									</div>
+									<div class="wrap-code">
+										<span>扫码立即购买</span>
+										<img src="../images/traffic-accident-https1.png" alt="">
+									</div>
+								</li>
+							</ul>
+						</li>
+						<li style='margin-right: 0px;'>
+							<ul class="wrap">
+								<li>
+									<div class="wrap-left">
+										<span>国内旅行险</span>
+										<span>达人必备</span>
+										<span>出行保障</span>
+										<span class="wrap-left-sign">¥<b>10</b></span>
+									</div>
+
+								</li>
+								<li class="wrap-h">
+									<div class="wrap-right" >
+										<img src="../images/junlong30.jpg" alt="">
+										
+									</div>
+									<div class="wrap-code">
+										<span>扫码立即购买</span>
+										<img src="../images/traffic-accident-https1.png" alt="">
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer-m">
+			<div class="footer-top">
+				<span class="footer-top-title"><b>合作品牌 •</b> COOPERATIVE BRAND</span>
+				<ul class="footer-top-ad">
+					<li>
+						<a href="#">
+							<img src="../images/allianz.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/anbang.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/ansheng.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/anxin.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/bainian.png" alt="">
+						</a>
+					</li>
+					<li >
+						<a href="#">
+							<img src="../images/changan.png" alt="">
+						</a>
+					</li>
+					<li style='margin-right:20px;'>
+						<a href="#">
+							<img src="../images/cpic.png" alt="">
+						</a>
+					</li>
+					<li style='margin-right:0px;'>
+						<a href="#">
+							<img src="../images/daduhui.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/dubang.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/ergo.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/guohua.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/hengan.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/hezhong.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/huatai.png" alt="">
+						</a>
+					</li>
+					<li style='margin-right:20px;'>
+						<a href="#">
+							<img src="../images/huaxia.jpg" alt="">
+						</a>
+					</li>
+					<li style='margin-right:0px;'>
+						<a href="#">
+							<img src="../images/junlong.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/lian.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/libao.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/picc.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/pingan.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/ruitai.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/starr.png" alt="">
+						</a>
+					</li>
+					<li style='margin-right:20px;'>
+						<a href="#">
+							<img src="../images/sunshine.png" alt="">
+						</a>
+					</li>
+					<li style='margin-right:0px;'>
+						<a href="#">
+							<img src="../images/taikang.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/taiping.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/yongan.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/yongcheng.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/zhongan.png" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/zhonghan.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/zhonghang.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="../images/zhongyi.jpg" alt="">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="toplink">
+				<ul>
+					
+					<li style="color:#999;">
+						<div class="d-toplink-border">
+							<a class="tpl-a" href="#" style="color:#999;">关于Qunar.com</a>
+							<i class="iconfont icon-moreunfold" style="font-size:10px;font-weight:bold;"></i>
+						</div>
+						<div class="drop_down">
+							<ul>
+								<li><a href="#">联系我们</a></li>
+								<li><a href="#">用户协议</a></li>
+								<li><a href="#">常见问题</a></li>
+								<li><a href="#">友情链接</a></li>
+							</ul>
+						</div>
+						<span class="drop-d">|</span></li>
+						<li><a href="#">酒店分销商加盟</a><span>|</span></li>
+						<li><a href="#">业务合作</a><span>|</span></li>
+						<li><a href="#">加入我们</a><span>|</span></li>
+						<li><a href="#">"严重违规失信"专项整治举报</a><span>|</span></li>
+						<li><a href="#">安全中心</a><span>|</span></li>
+						<li><a href="#">星骆驼公益</a><span>|</span></li>
+						<li><a href="#" style="position:relative;top:2px;">About Us</a></li>
+					</ul>
+				</div>
+				<div class="bottomlink">
+					<ul>
+						
+						<li>Copyright ©2018 Qunar.com</li>
+						<li><a href="#">京公网安备110108901530</a></li>
+						<li><a href="#">京ICP备05021087号</a></li>
+						<li><a href="#">营业执照信息</a></li>
+						<li><a href="#"保险经纪资质</a></li>
+						<li><a href="#">(京)-非经营性-2016-0110</a></li>
+						<li><a href="#"><i class="hour"></i>去哪儿网客服电话95117</a></li>
+					</ul>
+				</div>
+				<div class="footer_img">
+					<ul>
+						<li>
+							<a href="#" class="first_back"></a>
+						</li>
+						<li>
+							<a href="#" class=" second_back" title="去哪儿网通过PCI认证"></a>
+						</li>
+						<li>
+							<a href="#" class="third_back" title="信用编码：1786892425"></a>
+						</li>
+						<li>
+							<a href="#" class="forth_back" title="经营性网站备案信息"></a>
+						</li>
+						<li>
+							<a href="#" class="fifth_back" title="可信网站身份验证" ></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</body>
+		</html>

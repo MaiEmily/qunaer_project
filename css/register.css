@@ -1,0 +1,389 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-15 21:39:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-07 10:40:05
+*/
+*{
+		padding: 0;
+		margin: 0;
+		color: #555;
+
+	}
+	.nav{
+		height: 28px;
+		width: 100%;
+		background: #f5f5f5;
+		border-bottom: 1px solid #ddd;
+	
+		
+	}
+	/* .tab{
+		float: right;
+		margin-right: 182px;
+		overflow: hidden;
+		margin-left: 182px;
+	}*/
+	. tab>ul.tab_ul{
+		float: right;
+	}
+	.tab{
+		width: 980px;
+		margin: 0px auto;
+		background: red;
+	}
+	.nav a{
+		color: #555;
+		text-decoration: none;
+	}
+	.tab ul{
+		list-style: none;
+		padding: 2px;
+		height: 28px;
+		line-height: 28px;
+		box-sizing: border-box;
+
+	}
+	.nav li{
+		float: left;
+		font-size: 10px;
+		padding: 9px;
+		height: 8px;
+		line-height: 8px;
+		/* background: red; */
+	}
+	.left{
+		height: 10px;
+		width: 1px;
+		border-left: 1px solid #555;
+		margin-right: 9px;
+	}
+	.right{
+		height: 10px;
+		width: 1px;
+		border-right: 1px solid #555;
+		margin-left: 9px;
+	}
+	.con{
+		width: 980px;
+		margin-left:auto ;
+		margin-right:auto ;
+
+	}
+	.logo{
+		width: 137px;
+		float: left;
+		cursor: pointer;
+	}
+	h1{
+		width: 231px;
+		overflow: hidden;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.register{
+		font-size: 18px;
+		font-weight: normal;
+		float: right;
+		position: relative;
+		top: 31px;
+	}
+	.main{
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		height: 452px;
+		padding-top: 50px;
+		margin-bottom: 10px; 
+
+
+	}
+	.con_left{
+		width: 565px;
+		display: inline-block;
+
+	}
+	.con_right{
+		width: 320px;
+		font-size: 12px;
+	}
+	.con_left{
+		font-size: 14px;
+		float: left;
+	}
+	.con_left span{
+		font-size: 12px;
+	}
+	.con_left div{
+		height: 38px;
+		margin-top: 20px;
+		margin-right: 0px;
+
+	}
+
+	.con_left>div{
+		display: inline-block;
+	}
+	.con_right>div{
+		display: inline-block;
+	}
+	.con_right dt{
+		font-size: 14px;
+	}
+	.con_right{
+		width: 320px;
+		line-height: 200%;
+		float: left;
+		margin-left: 25px;
+	}
+	.bottom_top{
+		cursor: pointer;
+		margin-top:18px; 
+	}
+	.label{
+		width: 63px;
+		height: 36px;
+		line-height: 36px;
+		display: inline-block;
+		text-align: right;
+	}
+	.cinput{
+		height: 32px;
+		width: 224px;
+		box-sizing: content-box;
+		margin-left: 10px;
+		border: 1px solid #ccc;
+		padding-left: 6px;
+	}
+	.cinput:hover,.code:hover{
+		border-color: #5abec6;
+	}
+	.verification{
+		vertical-align:middle;
+		width: 94px;
+		height: 28px;
+		
+
+	}
+	.getc{
+		width: 96px;
+		height: 20px;
+		background:  #0b60f0;
+		color: #fff;
+		border: 1px solid transparent;
+		border-radius: 2px;
+	}
+	.change,.agreement,.mail{
+		text-decoration: none;
+		color: #0b60f0;
+
+	}
+	.change:hover,.agreement:hover,.mail:hover{
+		color: #ff8200;
+	}
+	.code{
+		height: 32px;
+		width: 109px;
+		box-sizing: content-box;
+		margin-left: 10px;
+		border: 1px solid #ccc;
+		padding-left: 6px;
+
+	}
+	.location01{
+		margin-left: 67px;
+	}
+	.agree{
+		position: relative;
+		top: 1px;
+		left: 77px;
+
+	}
+	.agree input{
+		position: relative;
+		top: 1px;
+		left: 1px;
+	}
+	.sign{
+		position: relative;
+		top: 42px;
+		left: -201px;
+		z-index: 2;
+	}
+	.sign>button{
+		width: 120px;
+		height: 30px;
+		background: #ff8200;
+		color: #fff;
+		border: 1px solid  #ff8200;
+		border-radius: 2px;
+		cursor: pointer;
+	}
+	u{
+		color: #fd017c;
+		text-decoration: none;
+	}
+	.top_right>dl{
+		margin-left: 27px;
+	}
+	#footer{
+	width: 980px;
+	font-size: 12px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	background: #fff;
+	padding-top: 13px;
+	}
+	#footer a{
+		text-decoration: none;
+		color: #999;
+	}
+	#footer span{
+		color: #999;
+	}
+	.toplink{
+		margin-right: auto;
+		margin-left: auto;
+		width: 639px;
+	}
+	.toplink>ul{
+		width: 856px;
+		list-style: none;
+	}
+	.toplink span{
+		display: inline-block;
+		padding: 3px;
+		font-size: 6px;
+		line-height: 20px;
+		height: 20px;
+		
+
+	}
+
+	.bottomlink ul{
+		width: 811px;
+		margin-right: auto;
+		margin-left: auto;
+		list-style: none;
+		overflow: hidden;
+	
+	}
+	.bottomlink{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.bottomlink li{
+		margin-right: 4px;
+		color: #999;
+	}
+	.bottomlink a,.drop_down a,.drop_down span{
+		color: #999;
+	}
+	.d-toplink-border{
+		width: 104px;
+		display: inline-block;
+		border: 1px solid transparent;
+	/* 	box-sizing: border-box; */
+	}
+
+	.bottomlink li,.toplink>ul>li{
+		float: left;
+		margin-top: 10px;
+		height: 20px;
+		line-height: 20px;
+	}
+	#footer>.toplink a:hover{
+		color:#ff8200 ;
+	}
+	#footer .drop_down li:hover a{
+		color: #666;
+	}
+	.toplink li:first-child{
+		position: relative;
+	}
+	.drop_down{
+		position: absolute;
+		top: -79px;
+		left: 0px;
+		width: 106px;
+		overflow: hidden;
+		display: none;
+		background: #fff;
+	}
+	.drop_down ul{
+		border: 1px solid #ddd;
+	}
+	.drop_down a{
+		text-decoration: none;
+   
+	}
+	.drop_down li:hover{
+		 background: #e2e2e2;
+	}
+	.drop-d{}
+	.footer_img
+	{
+		width: 980px;
+	}
+	.footer_img>ul{
+		width: 454px;
+		height: 32px;
+		margin:15px auto 30px ;
+		list-style: none;
+	}
+	.footer_img li{
+		border: 1px solid #ccc;
+		float: left;
+		margin-right: 8px;
+	}
+	.footer_img li a{
+
+		display: block;
+		background-image:  url('../images/footer_v10.png');
+		
+	}
+	.first_back{
+		width: 101px;
+		height: 31px;
+		background-position: 0px 0px;
+	
+
+	}
+	.second_back{
+		width: 48px;
+		height: 31px;
+		background-position: -106px 0px;
+		
+	}
+	.third_back{
+		width: 91px;
+		height: 31px;
+		background-position: -160px 0px;
+
+	}
+	.forth_back{
+		width: 77px;
+		height: 31px;
+		background-position: -257px 0px;
+	}
+	.fifth_back{
+		width: 87px;
+		height: 31px;
+		background-position: -431px 0px;        
+	}
+	.hour{
+		width: 16px;
+		height: 16px;
+		display: inline-block;
+		vertical-align:middle;
+		background-image: url('../images/24h.png');
+	}
+/* 	.main_right_sign_icon{
+	display: inline-block;
+	background: url('../images/icon-phone.png') 0px 0px no-repeat;
+}
+.main_right_sign{
+	line-height: 1.2;
+	
+} */
+
